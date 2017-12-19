@@ -9,3 +9,6 @@
       yum:
         name: sl
         state: present
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
