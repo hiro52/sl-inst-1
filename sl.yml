@@ -8,7 +8,7 @@
     - name: SL Install
       yum:
         name: sl
-        state: present
+        state: absent
     - name: Hello Message
       debug:
         msg: "Hello World!"
