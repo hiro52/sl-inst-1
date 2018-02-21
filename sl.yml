@@ -4,11 +4,11 @@
     - name: epel Install
       yum:
         name: http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-        state: absent
+        state: present
     - name: SL Install
       yum:
         name: sl
-        state: present
+        state: absent
     - name: Hello Message
       debug:
         msg: "Hello World!"
