@@ -4,7 +4,7 @@
     - name: epel Install
       yum:
         name: http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-        state: present
+        state: absent
     - name: SL Install
       yum:
         name: sl
