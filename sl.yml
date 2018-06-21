@@ -9,3 +9,4 @@
       yum:
         name: sl
         state: present
+
